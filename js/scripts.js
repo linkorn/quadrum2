@@ -604,4 +604,17 @@
 		});
 	}
 
+	if($('.full-project-carousel').length>0){
+		//var carouselSlider = new $.carouselSlider( $('.detailSlider')); 
+		$(".full-project-carousel .owl-carousel").owlCarousel({
+		    margin:10,
+		    loop:true,
+		    autoWidth:true,
+		    nav:true,
+		    dots:false,
+		    navText:["",""],
+		    mouseDrag:false,
+		});
+	}
+
 })(jQuery);
