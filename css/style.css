@@ -2951,7 +2951,7 @@ a.brand:hover, a.brand:focus {
     display: block; } }
 
 .full-project-carousel {
-  padding: 0;
+  padding: 98px 0 80px 0;
   background-color: #ffffff;
   width: 100%;
   max-width: 100%;
@@ -3001,6 +3001,7 @@ a.brand:hover, a.brand:focus {
     bottom: 0;
     left: 0;
     z-index: 1100;
+    line-height: 80px;
     /*
       left:50%;
       -webkit-transform: translateX(-50%);
@@ -3008,10 +3009,15 @@ a.brand:hover, a.brand:focus {
       -o-transform: translateX(-50%);
       transform: translateX(-50%); */ }
     .full-project-carousel .project-title a {
-      background: #fff;
-      padding: 5px 20px;
-      color: #666;
+      color: #000;
       float: left; }
+      .full-project-carousel .project-title a .description {
+        color: #666; }
+      .full-project-carousel .project-title a .arrow {
+        font-size: 3rem; }
+      .full-project-carousel .project-title a svg {
+        height: 1.5rem;
+        margin: -0.2rem 1rem -0.2rem 0; }
     .full-project-carousel .project-title .title {
       font-weight: bold; }
 
@@ -3019,6 +3025,44 @@ a.brand:hover, a.brand:focus {
   background-image: url("../images/projects/1-1920x1080.jpg");
   background-repeat: no-repeat;
   background-size: 50% 100%; }
+  #description h1 {
+    margin-bottom: 38px;
+    color: #ebebeb;
+    text-transform: none;
+    letter-spacing: 0; }
+  #description .project-meta strong {
+    display: inline-block;
+    margin-right: 12px; }
+  #description .project-meta em {
+    display: inline-block;
+    font-style: normal;
+    color: #666; }
+  #description .summary-container {
+    position: relative;
+    max-width: 800px;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    overflow: hidden; }
+    #description .summary-container p:not(.project-meta) {
+      text-align: justify; }
+  #description .project-credits .list {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding-right: 40px; }
+  #description .project-credits label {
+    font-weight: normal; }
+  #description .project-credits .list:last-child {
+    width: 100%; }
+  #description .list-simple {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.9rem;
+    line-height: 1.4rem; }
+    #description .list-simple li {
+      margin-bottom: 0;
+      font-weight: bold; }
   #description .description-text {
     margin-left: 50%;
     padding-left: 5rem;

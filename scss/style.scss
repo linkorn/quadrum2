@@ -3677,12 +3677,12 @@ a.brand {
 
 
 .full-project-carousel{
-    padding:0;
+    padding:98px 0 80px 0;
     background-color: #ffffff;
     width: 100%;
     max-width: 100%;    
     height:100%;
-    position:absolute;
+    position:absolute;    
 
     .owl-item{
       height:100%;
@@ -3739,12 +3739,23 @@ a.brand {
       bottom:0;
       left:0;            
       z-index: 1100;
+      line-height: 80px;
       a{
-        background:#fff;
-        padding:5px 20px;
-        color:$grey;
+        //background:#fff;
+        //padding:5px 20px;
+        color:#000;
         float:left;
-      }
+        .description{
+          color:$grey;
+        }
+        .arrow{
+          font-size:3rem;
+        }
+        svg{
+          height:1.5rem;
+          margin: -0.2rem 1rem -0.2rem 0;
+        }
+      }      
       /*
       left:50%;
       -webkit-transform: translateX(-50%);
@@ -3762,9 +3773,71 @@ a.brand {
   //background-repeat: repeat-y;
   background-repeat:no-repeat;
    background-size: 50% 100%;
-   .description-text{
+
+   h1{
+    margin-bottom: 38px;
+    color: #ebebeb;
+    text-transform: none;
+    letter-spacing: 0;
+   }
+
+   .project-meta{
+    strong {
+      display: inline-block;
+      margin-right: 12px;
+    }
+    em {
+      display: inline-block;
+      font-style: normal;
+      color: #666;
+    }
+  }
+
+  .summary-container {    
+    position: relative;
+      max-width: 800px;
+      font-size:0.9rem;
+      line-height: 1.4rem;
+      overflow: hidden;
+      p:not(.project-meta) {
+        text-align: justify;
+      }    
+  }
+
+  .project-credits
+  {
+    .list {
+      box-sizing: border-box;
+      float: left;
+      width: 50%;
+      padding-right: 40px;      
+    }
+
+    label{
+      font-weight: normal;
+    }
+
+
+    .list:last-child {
+      width: 100%;
+    }
+  }
+
+  .list-simple{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-size:0.9rem;
+      line-height: 1.4rem;
+    li {
+      margin-bottom: 0;
+      font-weight: bold;
+    }
+  }
+
+ .description-text{
     margin-left:50%;
     padding-left:5rem;
     box-sizing:border-box;
-   }
+  }   
 }
