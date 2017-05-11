@@ -1994,10 +1994,25 @@ a.brand:hover, a.brand:focus {
 
 .section-info {
   color: #999999;
-  line-height: 1.111;
+  line-height: 1.5rem;
   text-transform: uppercase;
   font-weight: 600;
-  margin-bottom: 4rem; }
+  margin-bottom: 1rem; }
+  .section-info.workhours {
+    margin-top: 3rem; }
+    .section-info.workhours .info-data {
+      display: block;
+      margin-top: 1rem;
+      margin-left: 0;
+      font-size: 1rem;
+      font-weight: normal;
+      text-transform: none; }
+      .section-info.workhours .info-data p {
+        margin: 0; }
+      .section-info.workhours .info-data .desc {
+        margin-top: 1rem;
+        font-style: italic;
+        color: #666; }
   .section-info .title-hr {
     margin: 0 0 1rem; }
   .section-info .info-title {
@@ -2010,25 +2025,22 @@ a.brand:hover, a.brand:focus {
     margin-top: 5px;
     color: #000;
     margin-left: 1rem; }
-    .section-info .info-data.workhours {
-      display: block;
-      margin-top: 1rem;
-      margin-left: 0;
-      font-size: 1rem;
-      font-weight: normal;
-      text-transform: none; }
-      .section-info .info-data.workhours p {
-        margin: 0; }
-      .section-info .info-data.workhours .desc {
-        margin-top: 1rem;
-        font-style: italic;
-        color: #666; }
 
 #contacts h3 {
   margin: 0; }
 
 #contacts .form-group {
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
+
+#contacts label {
+  font-weight: normal;
+  margin-bottom: 0; }
+
+#contacts h1 {
+  margin-top: 0; }
+
+#contacts input {
+  height: auto; }
 
 .bg-dots {
   background: url(../images/bg/dots2.png) 0 0 repeat; }

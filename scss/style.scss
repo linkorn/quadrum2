@@ -2438,10 +2438,27 @@ a.brand {
 
 .section-info {
   color: #999999;
-  line-height: 1.111;  
+  line-height: 1.5rem;  
   text-transform: uppercase;
   font-weight: 600;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;  
+  &.workhours{
+    margin-top: 3rem;  
+    .info-data{
+      display:block;
+      margin-top:1rem;
+      margin-left:0;
+      font-size: 1rem;
+      font-weight: normal;
+      text-transform: none ;
+      p{margin:0;}
+      .desc{
+        margin-top:1rem;
+        font-style: italic;
+        color:$grey;
+      }
+    }
+  }
   .title-hr {
     margin: 0 0 1rem;
   }
@@ -2456,21 +2473,7 @@ a.brand {
     display: inline;
     margin-top:5px;
     color:#000;
-    margin-left:1rem;
-    &.workhours{
-      display:block;
-      margin-top:1rem;
-      margin-left:0;
-      font-size: 1rem;
-      font-weight: normal;
-      text-transform: none ;
-      p{margin:0;}
-      .desc{
-        margin-top:1rem;
-        font-style: italic;
-        color:$grey;
-      }
-    }    
+    margin-left:1rem;    
   }
 
 }
@@ -2480,8 +2483,16 @@ a.brand {
     margin:0;    
   }  
   .form-group{
-    margin-bottom:20px;
+    margin-bottom:10px;
   }
+  label{
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  h1{
+    margin-top: 0;
+  }
+  input{height:auto;}
 }
 
 
