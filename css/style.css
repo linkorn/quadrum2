@@ -1999,18 +1999,36 @@ a.brand:hover, a.brand:focus {
   font-weight: 600;
   margin-bottom: 4rem; }
   .section-info .title-hr {
-    margin: 0 0 2rem; }
+    margin: 0 0 1rem; }
   .section-info .info-title {
     font-size: 1rem;
     color: rgba(0, 0, 0, 0.5);
-    text-transform: lowercase; }
+    text-transform: none;
+    display: inline; }
   .section-info .info-data {
-    float: left;
+    display: inline;
     margin-top: 5px;
-    color: #000; }
+    color: #000;
+    margin-left: 1rem; }
+    .section-info .info-data.workhours {
+      display: block;
+      margin-top: 1rem;
+      margin-left: 0;
+      font-size: 1rem;
+      font-weight: normal;
+      text-transform: none; }
+      .section-info .info-data.workhours p {
+        margin: 0; }
+      .section-info .info-data.workhours .desc {
+        margin-top: 1rem;
+        font-style: italic;
+        color: #666; }
 
 #contacts h3 {
   margin: 0; }
+
+#contacts .form-group {
+  margin-bottom: 20px; }
 
 .bg-dots {
   background: url(../images/bg/dots2.png) 0 0 repeat; }
