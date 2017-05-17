@@ -987,6 +987,31 @@ a.brand {
   3. Homepage
 -------------------------------------------------------------------------------*/
 
+#about{
+  overflow-x:hidden;
+  .image-preview{
+    float:right;
+    position: relative;
+  }
+  img.img-long{
+    position: absolute;
+    height:100%;
+    right:0; top:0;
+  }
+  .dots-image-2 .dots{
+    right:-25%;
+    left:auto;
+  }
+  .partners-title{
+    width:100%;
+    display: inline-block;
+    text-align: center;
+    h3{
+      margin-bottom: 0;
+    }
+  }
+}
+
 .wrapper {
   padding-top: 7rem;
   overflow-x: hidden;
@@ -1452,7 +1477,7 @@ a.brand {
 /* 3.6 Section Partners */
 
 .partner-carousel {
-  margin-top: 4rem; //10.28rem;
+  //margin-top: 4rem; //10.28rem;
   .partner-carousel-item {
     img {
       width: auto;
@@ -1686,7 +1711,8 @@ a.brand {
     top: -1px;
     width: 100%;
     height: 100%;
-    background: #fff;
+    //background: #fff;
+    background: rgba(255,255,255,0.8);
     z-index: -1;
     -webkit-transition: all 0.3s cubic-bezier(0.37, 0.31, 0.2, 0.85);
     -o-transition: all 0.3s cubic-bezier(0.37, 0.31, 0.2, 0.85);
@@ -3203,6 +3229,19 @@ a.brand {
   }
   p {
     margin-bottom: 0;
+  }
+}
+
+#services{
+  overflow-x:hidden;
+  .image-preview{
+    float:left;
+    position: relative;
+  }
+  img.img-long{
+    position: absolute;
+    height:100%;
+    left:0; top:0;
   }
 }
 
