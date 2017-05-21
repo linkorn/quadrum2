@@ -108,7 +108,7 @@
 /****************************** MIXINS **********************************************/
 
 $blue: #26A9E0;
-$blueAlpha: rgba(26,169,224,0.8);
+$blueAlpha: rgba(26,169,224,0.85);
 $fontBold: bold;
 $fontNormal: normal;
 $grey:#666;
@@ -1373,7 +1373,7 @@ a.brand {
   opacity: 0;
   margin-top: 12%;
   line-height: 1.71;
-  color: #333333;
+  color: #eee;//#333333;
   -webkit-transform: translateX(-1rem);
   -ms-transform: translateX(-1rem);
   -o-transform: translateX(-1rem);
@@ -1382,10 +1382,10 @@ a.brand {
 
 .project-item:hover {
   .project-hover {
-    background-color: rgba(206, 224, 2, 0.85);
+    background-color: $blueAlpha;// rgba(206, 224, 2, 0.85);
     .project-title {
       position: relative;
-      color: #000;
+      color: #fff;//#000;
       bottom: 2rem;
       -webkit-transform: translateY(2rem);
       -ms-transform: translateY(2rem);
@@ -1407,7 +1407,7 @@ a.brand {
     }
   }
   .link-arrow {
-    color: #000;
+    //color: #000;
   }
 }
 
@@ -2603,7 +2603,7 @@ a.brand {
 }
 
 .project-item:hover .project-hover-2 {
-  background-color: rgba(206, 224, 2, 0.85);
+  background-color: $blueAlpha; //rgba(206, 224, 2, 0.85);
   .project-title, .icon-plus {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -3507,6 +3507,10 @@ a.brand {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
   }
+
+  .brand svg{
+    height:2.36rem;
+  }
 }
 
 /* ------------------------------------------------------------------------------- */
@@ -3625,7 +3629,7 @@ a.brand {
   }
   /* Pages */
   .page-header {
-    margin: 12.8rem 0 10.8rem;
+    margin: 4rem 0 3rem; //12.8rem 0 10.8rem;
   }
   .page-header-2 {
     margin: 8.7rem 0 10.5rem;
