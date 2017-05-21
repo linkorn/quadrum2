@@ -1006,8 +1006,10 @@ a.brand {
     width:100%;
     display: inline-block;
     text-align: center;
-    h3{
+    span{
       margin-bottom: 0;
+      margin-top:2.6rem;
+      font-size:2.142rem;
     }
   }
 }
@@ -2145,6 +2147,9 @@ a.brand {
   }
   &.pp-scrollable .vertical-centred{
     padding-bottom: 2rem;
+  }
+  h1{
+    margin-top:0; padding-top:0;
   }
 }
 
