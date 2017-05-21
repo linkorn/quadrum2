@@ -1008,8 +1008,9 @@ a.brand {
     text-align: center;
     span{
       margin-bottom: 0;
-      margin-top:2.6rem;
+      padding-top:2.6rem;
       font-size:2.142rem;
+      display: inline-block;
     }
   }
 }
