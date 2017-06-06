@@ -501,9 +501,9 @@
 
       	$('.pagepiling').pagepiling({
     		scrollingSpeed: 280,
-		    loopBottom:true,
-		    menu: "#main-menu",
-		    anchors: ['home', 'services', 'portfolio', 'about', 'partners','contacts'],
+		    //loopBottom:true,
+		    //menu: "#main-menu",
+		    //anchors: ['description'],//, 'services', 'portfolio', 'about', 'partners','contacts'],
 		    navigation:false,
 		   	afterLoad: function(anchorLink, index){
 				
@@ -522,7 +522,7 @@
 
 
 
-		$('.pp-scrollable').on('scroll', function () {
+		/*$('.pp-scrollable').on('scroll', function () {
     		var scrollTop =$(this).scrollTop();
     		if (scrollTop > 0 ) {
     			$('.navbar-2').removeClass('navbar-white');
@@ -530,7 +530,7 @@
     		else{
     			$('.navbar-2').addClass('navbar-white');
     		}
-		});
+		}); */
 
 
 

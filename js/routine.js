@@ -22,7 +22,7 @@ function showLoader(){
        outClass: 'fade-out',
 	   inDuration: 1000,
 	   outDuration: 700,
-	   linkElement: '.menu-list a',
+	   //linkElement: '.menu-list a',
 	   // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
 	   loading:true,
 	   loadingParentElement: 'body', //animsition wrapper element
