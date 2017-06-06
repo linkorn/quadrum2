@@ -3181,7 +3181,11 @@ footer.page-footer {
   #service-page h2 {
     text-align: center; }
   #service-page .description {
-    font-size: 1.2rem; }
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0.025em;
+    line-height: 2.1428;
+    color: #666666; }
   #service-page .steps {
     margin-top: 4rem;
     display: flex;
